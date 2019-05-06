@@ -9,8 +9,6 @@ An implementation of Gated Recurrent Unit
 ---
 #### [GRU的理解]https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be
 ## 一些更加详细的介绍
-#### 我所使用的模型：
-![blockchain](http://gwjyhs.com/t6/702/1557068782x2918527194.png "gru")
 #### 模型公式：
 <img src="https://latex.codecogs.com/png.latex?\fn_cs&space;\large&space;z_t&space;=&space;sigmoid(W_z&space;\cdot&space;[x_t,&space;h_{t&space;-&space;1}]&space;&plus;&space;b_z)" title="\large z_t = sigmoid(W_z \cdot [x_t, h_{t - 1}] + b_z)" />
 <img src="https://latex.codecogs.com/png.latex?\fn_cs&space;\large&space;g_t&space;=&space;tanh(W_g&space;\cdot&space;[x_t,&space;r_t&space;\odot&space;h_{t&space;-&space;1}]&space;&plus;&space;b_g)" title="\large g_t = tanh(W_g \cdot [x_t, r_t \odot h_{t - 1}] + b_g)" />
